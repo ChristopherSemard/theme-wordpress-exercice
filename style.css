@@ -7592,6 +7592,10 @@ Version: 1.0
     height: 100vh !important;
   }
   
+  .vh-75 {
+    height: 75vh !important;
+  }
+  
   .m-0 {
     margin: 0 !important;
   }
@@ -9803,6 +9807,7 @@ Version: 1.0
     background: #F4F5F8;
     transition: .5s;
     width: 100%;
+    margin-bottom: 3em !important;
   }
   @media (min-width: 991.98px) {
 
@@ -9997,6 +10002,14 @@ Version: 1.0
     width: 100%;
     margin-top: 2em;
   }
+  .about-box h2{
+    font-size: 3.5em !important;
+  }
+  .about-box h5{
+    color: var(--primary) !important;
+    margin: 1em 0 !important;
+  }
+  
   
   footer h4{
     margin-bottom: 1em !important;
@@ -10030,10 +10043,10 @@ Version: 1.0
     .about-box{
     }
     .about-box > figure{
-      width: 30%;
+      width: 40%;
     }
     .about-box > div{
-      width: 65%;
+      width: 55%;
       margin-top: 0;
     }
     
