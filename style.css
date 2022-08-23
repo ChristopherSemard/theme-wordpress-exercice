@@ -9800,7 +9800,6 @@ Version: 1.0
   }
   
   .service-item {
-    height: 320px;
     background: #F4F5F8;
     transition: .5s;
     width: 100%;
